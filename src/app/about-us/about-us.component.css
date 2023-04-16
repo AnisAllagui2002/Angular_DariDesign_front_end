@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.containerr
+{
+    margin: 10%;
+    border: 2px solid #8E9D74;
+    transition: margin 1s, transform 1s;
+    transition: color 1s, transform 1s;
+}
+.containerr:link
+{
+    margin: 7%;
+    border: 2px solid #8E9D74;
+}
+.containerr:hover
+{
+    transition: margin 2s;
+    margin: 9%;
+    border: 2px solid #8E9D74;
+}
+#474e5d
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 37.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+#images{
+  height:250px;
+  width:100%;  
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #8E9D74;
+  color: white;
+}
+.about-section:hover {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.row{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Miss+Fajardose&display=swap');
+.myDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(65, 65, 65, 0.658);
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+}
